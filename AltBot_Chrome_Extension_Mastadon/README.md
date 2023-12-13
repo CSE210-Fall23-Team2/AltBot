@@ -4,7 +4,19 @@ We created a AltBot Chrome Extension using Manifest V3 specially for the website
 
 ---
 
-## Install Instruction
+## Install Instruction (Setting up your own python API server) (OPTIONAL: You can skip to next section directly)
+
+1. Create a hugging face access token [here](https://huggingface.co/settings/tokens)
+
+2. Setup a public flask server for our extension to query. (We used pythonanywhere.com to set up on cloud for free)
+
+3. Use the [Demo ML Python file](AltBot_Chrome_Extension_Mastadon\ml_api\demo_ML_Api.py) to host the flask server. 
+    Make sure to change the API_Token on line 47, and uname and password on line 15-16.
+
+4. Finally, we need to edit the base_url and creds in the contentScript.js file to call the new Flask API. (Lines: 26, 32, 33)
+
+
+## Install Instruction (Direct Running)
 
 1. On chrome://extensions/, enable the developer mode.
 2. Click `Load unpacked` and select this extension foler.
@@ -15,11 +27,15 @@ We created a AltBot Chrome Extension using Manifest V3 specially for the website
 
    <img width="505" alt="image" src="docs/ExtensionRunning.png">
 
+
+
+
 ## Demo
 
 Once running, our bot will automatically detect images and add alt tags to the code if it's not already present.\
+You can see the alt tags by hovering over it, or listen to it using a screen reader!\
 Example:
-    <img width="auto" alt="image" src="docs/demo.png">
+<img width="auto" alt="image" src="docs/demo.png">
 
 ---
 

@@ -39,14 +39,19 @@
   - package-lock.json
   - package.json
 - AltBot_Chrome_Extension_Mastadon
-  - assets
-  - ml_api
-      - README.md
-      - background.js
-      - contentScript.js
-      - manifest.json
-      - popup.css
-      - popup.js
+    - assets
+    - ml_api
+    - docs
+    - background_svcWorker
+        - background.js
+    - foreground
+        - contentScript.js
+    - popUp
+        - popup.css
+        - popup.js
+        - popup.html
+    - manifest.json
+    - README.md
 - Experiment (Standalone Prototypes/Experiementations)
   - ML_Model.py
   - Run_ML_Model.js
