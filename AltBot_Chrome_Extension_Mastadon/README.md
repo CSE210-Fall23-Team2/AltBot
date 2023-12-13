@@ -10,11 +10,10 @@ We created a AltBot Chrome Extension using Manifest V3 specially for the website
 
 2. Setup a public flask server for our extension to query. (We used pythonanywhere.com to set up on cloud for free)
 
-3. Use the [Demo ML Python file](AltBot_Chrome_Extension_Mastadon\ml_api\demo_ML_Api.py) to host the flask server. 
-    Make sure to change the API_Token on line 47, and uname and password on line 15-16.
+3. Use the [Demo ML Python file](ml_api/demo_ML_Api.py) to host the flask server.
+   Make sure to change the API_Token on line 47, and uname and password on line 15-16.
 
 4. Finally, we need to edit the base_url and creds in the contentScript.js file to call the new Flask API. (Lines: 26, 32, 33)
-
 
 ## Install Instruction (Direct Running)
 
@@ -26,9 +25,6 @@ We created a AltBot Chrome Extension using Manifest V3 specially for the website
 3. Enable the extension and navigate to the Mastodon.social website. Upon doing so, you can check if the extension is installed properly by clicking on the extension's logo. A popup window will appear, indicating that our bot is currently running.
 
    <img width="505" alt="image" src="docs/ExtensionRunning.png">
-
-
-
 
 ## Demo
 
