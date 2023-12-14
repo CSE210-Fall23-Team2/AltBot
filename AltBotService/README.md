@@ -12,7 +12,7 @@ Create a SQL database
 
 ### Step 1
 
-Create MySQl table with name "**Images**" and column names: _image_id, image_url, flag_ before running the code.
+Create MySQl table with `CREATE TABLE Images(image_id VARCHAR(255) PRIMARY KEY, image_url VARCHAR(255), flag integer, post_id VARCHAR(255),user_id VARCHAR(255),alt_text varchar(255));`
 
 ### Step 2
 
