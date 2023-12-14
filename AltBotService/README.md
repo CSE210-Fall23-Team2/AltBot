@@ -8,22 +8,24 @@ We are using the publicly available Mastadon API to communicate and transfer dat
 
 ### Background:
 
-Create a SQL database
-
 ### Step 1
+
+Install dependencies using `npm install`
+
+### Step 2
 
 Create MySQl table with `CREATE TABLE Images(image_id VARCHAR(255) PRIMARY KEY, image_url VARCHAR(255), flag integer, post_id VARCHAR(255),user_id VARCHAR(255),alt_text varchar(255));`
 
-### Step 2
+### Step 3
 
 Create a .env file
 Add your crendentials to the env file
 
-### Step 3
+### Step 4
 
 Please proceed to the readme file of AltTagMLService and run the first 3 steps there. [Link](../ALTTagMLService/README.md)
 
-### Step 4
+### Step 5
 
 To directly start the running of the bot, you can execute the **main.sh** bash file.
 `./main.sh`
