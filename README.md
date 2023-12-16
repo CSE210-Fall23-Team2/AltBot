@@ -16,11 +16,11 @@
     -  README.md
   - app.py
   - requirements.txt
+  - README.md
 
 - AltBotService (Mastadon Bot)
   - Images
-  - OutputImages
-  - Docs
+  - docs
   - test
     - DownloadImages.test.js
     - ExtractData.test.js
@@ -29,16 +29,23 @@
     - SaveToDB.test.js
     - UploadImage.test.js
   - .gitignore
-  - DownloadImages.js
-  - ExtractData.js
-  - ReadDataTimeline.js
-  - SaveToDB.js
-  - UploadImage.js
+  - DeleteOutputImages
+    - Delete.js
+  - DownloadImages
+    - DownloadImages.js
+    - ExtractData.js
+  - ReadTimeline
+    - ReadDataTimeline.js
+    - SaveToDB.js
+  - UploadImage
+    - UploadImage.js
+    - dbutil.js
   - jest.config.js
   - main.sh
   - package-lock.json
   - package.json
-- AltBot_Chrome_Extension_Mastadon
+  - README.md
+- AltBot_Chrome_Extension_Mastadon (Chrome Extension)
   - assets
   - ml_api
   - background_svcWorker
@@ -49,14 +56,11 @@
     - popup.css
     - popup.js
     - utils.js
-  - README.md
   - manifest.json
+  - README.md
 - Experiment (Standalone Prototypes/Experiementations)
-  - ML_Model.py
-  - Run_ML_Model.js
-  - alt_api.py
-  - alt_api_invoke.py
-  - bot.js
+  - archive
+  - src
 
 ## Design Structure
 
