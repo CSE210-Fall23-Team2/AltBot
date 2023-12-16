@@ -39,6 +39,6 @@ Please GOTO the Test folder for testing specific instructions.
 
 
 ## Expect Output
-Once the server and client sides are set up, the bot will reply to the original posts (new) that do not have an alt tag on the accounts you follow.
+Once the server and client sides are set up, the bot will reply to the original posts (new) that do not have an alt tag on the accounts you follow.\
 <img width="829" alt="image" src="https://github.com/CSE210-Fall23-Team2/AltBot/assets/34372501/933f82a7-31ee-4f0e-82ab-1696b72a53c5">
 
