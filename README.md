@@ -13,7 +13,7 @@
   - templates
   - docs
     -  index.html
-    -  READMEA.md
+    -  README.md
   - app.py
   - requirements.txt
 
